@@ -1,3 +1,5 @@
+package Training_Youtube;
+
 class Employee {
 
     String Name;
@@ -5,12 +7,12 @@ class Employee {
 
     Employee() {
 
-       System.out.println("Employee constructor");
+       System.out.println("Training_Youtube.Employee constructor");
     }
     Employee(String name, int id){
         this.Name=name;
         this.id=id;
-        System.out.println("Employee one constructor");
+        System.out.println("Training_Youtube.Employee one constructor");
     }
 }
 

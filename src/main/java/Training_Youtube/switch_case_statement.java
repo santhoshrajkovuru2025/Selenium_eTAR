@@ -1,3 +1,5 @@
+package Training_Youtube;
+
 public class switch_case_statement {
 
     public static void main(String[] args) {

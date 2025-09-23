@@ -1,3 +1,5 @@
+package Training_Youtube;
+
 public class  constructor_2{
 
     int a;

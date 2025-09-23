@@ -2,38 +2,30 @@ package Test_Class;
 
 class A{
 	
-	A(){ // Constructor
-		
-		System.out.println("Parent Constructor of A");
+	A(){ // Training_Youtube.Constructor
+		System.out.println("Parent Training_Youtube.Constructor A");
 	}
 	
-	A(int a){ // Constructor
-		
-		System.out.println("Parent Parameterized Constructor of Child Class A"); // Parameterized Constructor
-		// System.out.println(a);
+	A(int a){ // Training_Youtube.Constructor
+		System.out.println("Parent Parameterized Training_Youtube.Constructor of Class A"); // Parameterized Training_Youtube.Constructor
+		System.out.println(a);
 	}
 }
-
 class B extends A{
 	
-	B(){ // Constructor
-		
-		System.out.println("Constructor of B");
+	B(){ // Training_Youtube.Constructor
+		System.out.println("Training_Youtube.Constructor of B");
 	}
-	
-	B(int b){ // Constructor
-		
-		super(3);
-		System.out.println("Parameterized Constructor of Child Class B"); // parameterized constructor 
-		// System.out.println(b);
+	B(int b){ // Training_Youtube.Constructor
+        super(3);
+		System.out.println("Parameterized Training_Youtube.Constructor of Child Class B"); // Parameterized constructor
+		System.out.println(b);
 	}
 }
 
 public class ThisSuper {
-	
 	public static void main(String[] args) {
-		
-		B obj = new B(4);
+		A a = new A(2);
+		B b = new B(3);
 	}
-
 }

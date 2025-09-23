@@ -1,4 +1,4 @@
-import java.awt.*;
+package Training_Youtube;
 
 public class Constructor {
 

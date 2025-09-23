@@ -1,3 +1,5 @@
+package Training_Youtube;
+
 public class functions {
 
    public static int printAdd(int x, int y){
